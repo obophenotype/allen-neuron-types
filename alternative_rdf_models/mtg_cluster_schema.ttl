@@ -1,0 +1,52 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+@prefix :      <http://www.jcvi.org/cl_ext/mtg_cluster_schema#> .
+
+<http://www.jcvi.org/cl_ext/mtg_cluster_schema>
+  rdf:type owl:Ontology ;
+  owl:versionInfo "$Id: mtg_cluster_schema.ttl, Ver 1.0, Mar 22, 2018, Mohamed Keshk. $" .
+
+
+# ******************* Human_MTG_Cluster_Annotation Properties ******************* 
+
+:id 
+  a owl:AnnotationProperty .
+
+:name 
+  a owl:AnnotationProperty .
+
+:size 
+  a owl:DatatypeProperty ;
+  rdfs:range xsd:int .
+
+:type 
+  a owl:AnnotationProperty .
+
+:layer_enriched 
+  a owl:AnnotationProperty .
+
+:tree_order 
+  a owl:DatatypeProperty ;
+  rdfs:range xsd:int .
+
+:level1 
+  a owl:AnnotationProperty .
+
+:level2 
+  a owl:AnnotationProperty .
+
+:level3 
+  a owl:AnnotationProperty .
+
+:acronym 
+  a owl:AnnotationProperty .
+      
+:maps_to 
+  a owl:AnnotationProperty .
+
+:selectively_expresses 
+  a owl:AnnotationProperty .
+	    

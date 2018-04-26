@@ -1,0 +1,1158 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+@prefix :               <http://www.jcvi.org/cl_ext/mtg_cluster#> .
+@prefix mtg_cluster_sc: <http://www.jcvi.org/cl_ext/mtg_cluster_schema#> .
+@prefix cl:             <http://purl.obolibrary.org/obo/cl#> .
+@prefix hugo:           <http://ncicb.nci.nih.gov/xml/owl/evs/hugo#> .
+@prefix skos:           <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.jcvi.org/cl_ext/mtg_cluster>
+  rdf:type owl:Ontology ;
+  owl:versionInfo "$Id: mtg_cluster.ttl, Ver 1.0, Apr 9, 2018, Mohamed Keshk. $" .
+
+
+# ******************* MTG_Cluster_Annotation Concepts ******************* 
+
+:pcl_1001 
+  a skos:Concept ;
+  mtg_cluster_sc:id "pcl_1001" ;
+  rdfs:label "LAMP5/NDNF-expressing GABAergic neuron" ;
+  mtg_cluster_sc:selectively_expresses hugo:HGNC_16097 ;
+  mtg_cluster_sc:selectively_expresses hugo:HGNC_26256 ;
+  skos:broader cl:CL_0000617 ;
+.
+:pcl_1002 
+  a skos:Concept ;
+  mtg_cluster_sc:id "pcl_1002" ;
+  rdfs:label "VIP-expressing GABAergic neuron" ;
+  mtg_cluster_sc:selectively_expresses hugo:HGNC_12693 ;
+  skos:broader cl:CL_0000617 ;
+.
+:pcl_1003 
+  a skos:Concept ;
+  mtg_cluster_sc:id "pcl_1003" ;
+  rdfs:label "PVALB-expressing GABAergic neuron" ;
+  mtg_cluster_sc:selectively_expresses hugo:HGNC_9704 ;
+  skos:broader cl:CL_0000617 ;
+.
+:pcl_1004 
+  a skos:Concept ;
+  mtg_cluster_sc:id "pcl_1004" ;
+  rdfs:label "SST-expressing GABAergic neuron" ;
+  mtg_cluster_sc:selectively_expresses hugo:HGNC_11329 ;
+  skos:broader cl:CL_0000617 ;
+.
+
+:pcl_14 
+  a skos:Concept ;
+  mtg_cluster_sc:id "14" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4609" ;
+  mtg_cluster_sc:name "cl14_i90_GRPR_Ndnf.Cxcl14_L1.4" ;
+  mtg_cluster_sc:size "90"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "1" ;
+  mtg_cluster_sc:tree_order "1"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_46 
+  a skos:Concept ;
+  mtg_cluster_sc:id "46" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_53448" ;
+  mtg_cluster_sc:name "cl46_i16_DKFZp686K1684_Ndnf.Cxcl14_L2.0" ;
+  mtg_cluster_sc:size "16"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "2"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_3 
+  a skos:Concept ;
+  mtg_cluster_sc:id "3" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_7843" ;
+  mtg_cluster_sc:name "cl3_i283_NMBR_Ndnf.Car4_L1.3" ;
+  mtg_cluster_sc:size "283"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "1" ;
+  mtg_cluster_sc:tree_order "3"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_2 
+  a skos:Concept ;
+  mtg_cluster_sc:id "2" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_2697" ;
+  mtg_cluster_sc:name "cl2_i21_DBP_Ndnf.Car4_L1.2" ;
+  mtg_cluster_sc:size "21"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "1" ;
+  mtg_cluster_sc:tree_order "4"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_1 
+  a skos:Concept ;
+  mtg_cluster_sc:id "1" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_6529" ;
+  mtg_cluster_sc:name "cl1_i356_LCP2_Ndnf.Car4_L3.2" ;
+  mtg_cluster_sc:size "356"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "5"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_4 
+  a skos:Concept ;
+  mtg_cluster_sc:id "4" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_26086" ;
+  mtg_cluster_sc:name "cl4_i256_TMEM255A_Ndnf.Car4_L4.7" ;
+  mtg_cluster_sc:size "256"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "6"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_29 
+  a skos:Concept ;
+  mtg_cluster_sc:id "29" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_1958" ;
+  mtg_cluster_sc:name "cl29_i52_CHRNA4_Ndnf.Cxcl14_L1.1" ;
+  mtg_cluster_sc:size "52"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "1" ;
+  mtg_cluster_sc:tree_order "7"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_13 
+  a skos:Concept ;
+  mtg_cluster_sc:id "13" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_6932" ;
+  mtg_cluster_sc:name "cl13_i107_MC4R_Ndnf.Cxcl14_L1.4" ;
+  mtg_cluster_sc:size "107"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "1" ;
+  mtg_cluster_sc:tree_order "8"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_12 
+  a skos:Concept ;
+  mtg_cluster_sc:id "12" ;
+  skos:broader :pcl_1001 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_37453" ;
+  mtg_cluster_sc:name "cl12_i108_NPIPB11_Ndnf.Cxcl14_L1.5" ;
+  mtg_cluster_sc:size "108"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "1" ;
+  mtg_cluster_sc:tree_order "9"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1001 ;
+.
+:pcl_30 
+  a skos:Concept ;
+  mtg_cluster_sc:id "30" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_21641" ;
+  mtg_cluster_sc:name "cl30_i42_TSPAN12_Vip.Mybpc1_L1.5" ;
+  mtg_cluster_sc:size "42"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "1" ;
+  mtg_cluster_sc:tree_order "10"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_42 
+  a skos:Concept ;
+  mtg_cluster_sc:id "42" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_15963" ;
+  mtg_cluster_sc:name "cl42_i25_CHRNA6_Vip.Mybpc1_L2.6" ;
+  mtg_cluster_sc:size "25"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3a" ;
+  mtg_cluster_sc:tree_order "11"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_39 
+  a skos:Concept ;
+  mtg_cluster_sc:id "39" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_18638" ;
+  mtg_cluster_sc:name "cl39_i29_SYT6_Ndnf.Cxcl14_L2.5" ;
+  mtg_cluster_sc:size "29"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "12"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_18 
+  a skos:Concept ;
+  mtg_cluster_sc:id "18" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_27273" ;
+  mtg_cluster_sc:name "cl18_i72_ZCCHC12_Vip.Mybpc1_L2.7" ;
+  mtg_cluster_sc:size "72"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3a" ;
+  mtg_cluster_sc:tree_order "13"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_47 
+  a skos:Concept ;
+  mtg_cluster_sc:id "47" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_8831" ;
+  mtg_cluster_sc:name "cl47_i17_PENK_Vip.Mybpc1_L3.2" ;
+  mtg_cluster_sc:size "17"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "14"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_19 
+  a skos:Concept ;
+  mtg_cluster_sc:id "19" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4248" ;
+  mtg_cluster_sc:name "cl19_i68_GGH_Vip.Chat_L2.5" ;
+  mtg_cluster_sc:size "68"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "15"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_37 
+  a skos:Concept ;
+  mtg_cluster_sc:id "37" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_33749" ;
+  mtg_cluster_sc:name "cl37_i64_CCDC184_Vip.Chat_L2.5" ;
+  mtg_cluster_sc:size "64"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "16"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_9 
+  a skos:Concept ;
+  mtg_cluster_sc:id "9" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_5184" ;
+  mtg_cluster_sc:name "cl9_i175_HRH3_Vip.Chat_L2.4" ;
+  mtg_cluster_sc:size "175"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "17"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_20 
+  a skos:Concept ;
+  mtg_cluster_sc:id "20" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_1543" ;
+  mtg_cluster_sc:name "cl20_i67_CBLN1_Vip.Chat_L3.0" ;
+  mtg_cluster_sc:size "67"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "18"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_32 
+  a skos:Concept ;
+  mtg_cluster_sc:id "32" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_29532" ;
+  mtg_cluster_sc:name "cl32_i47_LBH_Vip.Chat_L1.7" ;
+  mtg_cluster_sc:size "47"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "19"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_34 
+  a skos:Concept ;
+  mtg_cluster_sc:id "34" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_49076" ;
+  mtg_cluster_sc:name "cl34_i45_CASC6_Vip.Mybpc1_L2.5" ;
+  mtg_cluster_sc:size "45"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "20"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_21 
+  a skos:Concept ;
+  mtg_cluster_sc:id "21" ;
+  mtg_cluster_sc:name "cl21_o60_ZNF557_L5b.Samd3_L2.9" ;
+  mtg_cluster_sc:size "60"^^xsd:int ;
+  mtg_cluster_sc:layer_enriched "3a" ;
+.
+:pcl_36 
+  a skos:Concept ;
+  mtg_cluster_sc:id "36" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_18710" ;
+  mtg_cluster_sc:name "cl36_i33_LGI2_Vip.Chat_L2.8" ;
+  mtg_cluster_sc:size "33"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3a" ;
+  mtg_cluster_sc:tree_order "21"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_35 
+  a skos:Concept ;
+  mtg_cluster_sc:id "35" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_31078" ;
+  mtg_cluster_sc:name "cl35_i52_YWHAZP2_Vip.Mybpc1_L3.0" ;
+  mtg_cluster_sc:size "52"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "22"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_22 
+  a skos:Concept ;
+  mtg_cluster_sc:id "22" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_14257" ;
+  mtg_cluster_sc:name "cl22_i61_PCDH20_Vip.Mybpc1_L1.7" ;
+  mtg_cluster_sc:size "61"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "23"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_26 
+  a skos:Concept ;
+  mtg_cluster_sc:id "26" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_18232" ;
+  mtg_cluster_sc:name "cl26_i80_BSPRY_Vip.Chat_L4.0" ;
+  mtg_cluster_sc:size "80"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "24"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_45 
+  a skos:Concept ;
+  mtg_cluster_sc:id "45" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4553" ;
+  mtg_cluster_sc:name "cl45_i37_GPX1_Vip.Chat_L4.3" ;
+  mtg_cluster_sc:size "37"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "25"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_24 
+  a skos:Concept ;
+  mtg_cluster_sc:id "24" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_8824" ;
+  mtg_cluster_sc:name "cl24_i55_SERPINF1_Vip.Mybpc1_L3.6" ;
+  mtg_cluster_sc:size "55"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "26"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_23 
+  a skos:Concept ;
+  mtg_cluster_sc:id "23" ;
+  skos:broader :pcl_1002 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_3443" ;
+  mtg_cluster_sc:name "cl23_i62_EREG_Vip.Mybpc1_L3.9" ;
+  mtg_cluster_sc:size "62"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "27"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1002 ;
+.
+:pcl_38 
+  a skos:Concept ;
+  mtg_cluster_sc:id "38" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_7866" ;
+  mtg_cluster_sc:name "cl38_i32_NOG_Pvalb.Wt1_L3.2" ;
+  mtg_cluster_sc:size "32"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "28"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_10 
+  a skos:Concept ;
+  mtg_cluster_sc:id "10" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_1434" ;
+  mtg_cluster_sc:name "cl10_i279_CALB1_Sst.Cbln4_L2.4" ;
+  mtg_cluster_sc:size "279"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "29"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_11 
+  a skos:Concept ;
+  mtg_cluster_sc:id "11" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_13841" ;
+  mtg_cluster_sc:name "cl11_i132_ADGRG6_Sst.Cbln4_L3.6" ;
+  mtg_cluster_sc:size "132"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "30"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_6 
+  a skos:Concept ;
+  mtg_cluster_sc:id "6" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_7872" ;
+  mtg_cluster_sc:name "cl6_i64_NOS1_Pvalb.Wt1_L3.2" ;
+  mtg_cluster_sc:size "64"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "31"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_25 
+  a skos:Concept ;
+  mtg_cluster_sc:id "25" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_5154" ;
+  mtg_cluster_sc:name "cl25_i60_HPGD_Sst.Tacstd2_L4.9" ;
+  mtg_cluster_sc:size "60"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "32"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_15 
+  a skos:Concept ;
+  mtg_cluster_sc:id "15" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_7859" ;
+  mtg_cluster_sc:name "cl15_i93_NMU_Sst.Tacstd2_L4.3" ;
+  mtg_cluster_sc:size "93"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "33"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_17 
+  a skos:Concept ;
+  mtg_cluster_sc:id "17" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_25233" ;
+  mtg_cluster_sc:name "cl17_i182_NIPAL3_Sst.Tacstd2_L4.8" ;
+  mtg_cluster_sc:size "182"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "34"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_16 
+  a skos:Concept ;
+  mtg_cluster_sc:id "16" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_25573" ;
+  mtg_cluster_sc:name "cl16_i63_KLHDC8A_Sst.Tacstd2_L5.2" ;
+  mtg_cluster_sc:size "63"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "35"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_33 
+  a skos:Concept ;
+  mtg_cluster_sc:id "33" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_6128" ;
+  mtg_cluster_sc:name "cl33_i41_IRS4_Sst.Tacstd2_L5.1" ;
+  mtg_cluster_sc:size "41"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "36"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_27 
+  a skos:Concept ;
+  mtg_cluster_sc:id "27" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_7912" ;
+  mtg_cluster_sc:name "cl27_i79_NPM1P10_Sst.Tacstd2_L5.4" ;
+  mtg_cluster_sc:size "79"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "37"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_40 
+  a skos:Concept ;
+  mtg_cluster_sc:id "40" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_11782" ;
+  mtg_cluster_sc:name "cl40_i27_TH_Sst.Tacstd2_L5.3" ;
+  mtg_cluster_sc:size "27"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "38"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_8 
+  a skos:Concept ;
+  mtg_cluster_sc:id "8" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_15939" ;
+  mtg_cluster_sc:name "cl8_i387_WFDC2_Pvalb.Wt1_L3.2" ;
+  mtg_cluster_sc:size "387"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "39"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_5 
+  a skos:Concept ;
+  mtg_cluster_sc:id "5" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_20391" ;
+  mtg_cluster_sc:name "cl5_i167_SULF1_Pvalb.Wt1_L4.8" ;
+  mtg_cluster_sc:size "167"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "40"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_7 
+  a skos:Concept ;
+  mtg_cluster_sc:id "7" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_13361" ;
+  mtg_cluster_sc:name "cl7_i64_MEPE_Pvalb.Wt1_L4.9" ;
+  mtg_cluster_sc:size "64"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "41"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_43 
+  a skos:Concept ;
+  mtg_cluster_sc:id "43" ;
+  mtg_cluster_sc:name "cl43_o22_ABCG2_Pvalb.Wt1_L3.2" ;
+  mtg_cluster_sc:size "22"^^xsd:int ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+.
+:pcl_44 
+  a skos:Concept ;
+  mtg_cluster_sc:id "44" ;
+  mtg_cluster_sc:name "cl44_o39_PTK7_L5a.Deptor_Pacsin2_L4.1" ;
+  mtg_cluster_sc:size "39"^^xsd:int ;
+  mtg_cluster_sc:layer_enriched "4" ;
+.
+:pcl_31 
+  a skos:Concept ;
+  mtg_cluster_sc:id "31" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_88" ;
+  mtg_cluster_sc:name "cl31_i80_ACADL_Pvalb.Wt1_L5.3" ;
+  mtg_cluster_sc:size "80"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "42"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_28 
+  a skos:Concept ;
+  mtg_cluster_sc:id "28" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_1996" ;
+  mtg_cluster_sc:name "cl28_i52_CKMT2_Pvalb.Wt1_L5.4" ;
+  mtg_cluster_sc:size "52"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "43"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_41 
+  a skos:Concept ;
+  mtg_cluster_sc:id "41" ;
+  skos:broader :pcl_1003 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4324" ;
+  mtg_cluster_sc:name "cl41_i27_GLP1R_Pvalb.Wt1_L5.7" ;
+  mtg_cluster_sc:size "27"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "6a" ;
+  mtg_cluster_sc:tree_order "44"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1003 ;
+.
+:pcl_48 
+  a skos:Concept ;
+  mtg_cluster_sc:id "48" ;
+  mtg_cluster_sc:name "cl48_o16_ZBED4_Sst.Tacstd2_L3.5" ;
+  mtg_cluster_sc:size "16"^^xsd:int ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+.
+:pcl_49 
+  a skos:Concept ;
+  mtg_cluster_sc:id "49" ;
+  mtg_cluster_sc:name "cl49_o11_TTC32_L6a.Plcxd3_L5.2" ;
+  mtg_cluster_sc:size "11"^^xsd:int ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+.
+:pcl_50 
+  a skos:Concept ;
+  mtg_cluster_sc:id "50" ;
+  skos:broader :pcl_1004 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_7955" ;
+  mtg_cluster_sc:name "cl50_i15_NPY_Sst.Chodl_L5.0" ;
+  mtg_cluster_sc:size "15"^^xsd:int ;
+  mtg_cluster_sc:type "inh" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "45"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000617 ;
+  mtg_cluster_sc:level3 :pcl_1004 ;
+.
+:pcl_51 
+  a skos:Concept ;
+  mtg_cluster_sc:id "51" ;
+  mtg_cluster_sc:name "cl51_o14_USP1_Ndnf.Cxcl14_L1.7" ;
+  mtg_cluster_sc:size "14"^^xsd:int ;
+  mtg_cluster_sc:layer_enriched "2" ;
+.
+:pcl_55 
+  a skos:Concept ;
+  mtg_cluster_sc:id "55" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_25172" ;
+  mtg_cluster_sc:name "cl55_e2284_FREM3_L5b.Cdh13_L2.8" ;
+  mtg_cluster_sc:size "2284"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "3a" ;
+  mtg_cluster_sc:tree_order "46"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_52 
+  a skos:Concept ;
+  mtg_cluster_sc:id "52" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_6721" ;
+  mtg_cluster_sc:name "cl52_e812_LTK_L5b.Cdh13_L2.0" ;
+  mtg_cluster_sc:size "812"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "47"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_54 
+  a skos:Concept ;
+  mtg_cluster_sc:id "54" ;
+  mtg_cluster_sc:name "cl54_o30_CYP39A1_L5a.Deptor_Pacsin2_L4.4" ;
+  mtg_cluster_sc:size "30"^^xsd:int ;
+  mtg_cluster_sc:layer_enriched "4" ;
+.
+:pcl_53 
+  a skos:Concept ;
+  mtg_cluster_sc:id "53" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4325" ;
+  mtg_cluster_sc:name "cl53_e170_GLP2R_L5b.Cdh13_L3.0" ;
+  mtg_cluster_sc:size "170"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "48"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_60 
+  a skos:Concept ;
+  mtg_cluster_sc:id "60" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_23227" ;
+  mtg_cluster_sc:name "cl60_e1537_KCTD4_L2.Ngb_L5.7" ;
+  mtg_cluster_sc:size "1537"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "6a" ;
+  mtg_cluster_sc:tree_order "49"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_63 
+  a skos:Concept ;
+  mtg_cluster_sc:id "63" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_23392" ;
+  mtg_cluster_sc:name "cl63_e280_CARM1P1_L5b.Samd3_L3.4" ;
+  mtg_cluster_sc:size "280"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "50"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_62 
+  a skos:Concept ;
+  mtg_cluster_sc:id "62" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_12479" ;
+  mtg_cluster_sc:name "cl62_e153_UBE2E3_L5a.Deptor_Pacsin2_L3.7" ;
+  mtg_cluster_sc:size "153"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "51"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_72 
+  a skos:Concept ;
+  mtg_cluster_sc:id "72" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_1855" ;
+  mtg_cluster_sc:name "cl72_e93_CENPCP1_L5a.Deptor_Pacsin2_L4.0" ;
+  mtg_cluster_sc:size "93"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "52"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_67 
+  a skos:Concept ;
+  mtg_cluster_sc:id "67" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4481" ;
+  mtg_cluster_sc:name "cl67_e160_GPR26_L6.Syt17_L4.0" ;
+  mtg_cluster_sc:size "160"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "53"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_56 
+  a skos:Concept ;
+  mtg_cluster_sc:id "56" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_12004" ;
+  mtg_cluster_sc:name "cl56_e1428_TPBG_L4.Sparcl1_L4.1" ;
+  mtg_cluster_sc:size "1428"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "54"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_58 
+  a skos:Concept ;
+  mtg_cluster_sc:id "58" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_13636" ;
+  mtg_cluster_sc:name "cl58_e870_FOLH1B_L5a.Deptor_Pacsin2_L4.5" ;
+  mtg_cluster_sc:size "870"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "55"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_71 
+  a skos:Concept ;
+  mtg_cluster_sc:id "71" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_20421" ;
+  mtg_cluster_sc:name "cl71_e173_LNX2_L5a.Deptor_Pacsin2_L4.2" ;
+  mtg_cluster_sc:size "173"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "56"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_57 
+  a skos:Concept ;
+  mtg_cluster_sc:id "57" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_23729" ;
+  mtg_cluster_sc:name "cl57_e777_MKX_L5a.Deptor_Pacsin2_L4.6" ;
+  mtg_cluster_sc:size "777"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "57"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_68 
+  a skos:Concept ;
+  mtg_cluster_sc:id "68" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_1246" ;
+  mtg_cluster_sc:name "cl68_e160_C1R_L5a.Deptor_Pacsin2_L5.0" ;
+  mtg_cluster_sc:size "160"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "58"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_66 
+  a skos:Concept ;
+  mtg_cluster_sc:id "66" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_11215" ;
+  mtg_cluster_sc:name "cl66_e167_SPAG6_L5a.Deptor_Pacsin2_L5.1" ;
+  mtg_cluster_sc:size "167"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "59"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_78 
+  a skos:Concept ;
+  mtg_cluster_sc:id "78" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_10592" ;
+  mtg_cluster_sc:name "cl78_e25_SCN4B_L5b.Cdh13_L4.7" ;
+  mtg_cluster_sc:size "25"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "60"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_75 
+  a skos:Concept ;
+  mtg_cluster_sc:id "75" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_18549" ;
+  mtg_cluster_sc:name "cl75_e53_DCSTAMP_L2.Ngb_L5.3" ;
+  mtg_cluster_sc:size "53"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "61"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_69 
+  a skos:Concept ;
+  mtg_cluster_sc:id "69" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_2338" ;
+  mtg_cluster_sc:name "cl69_e147_CRABP1_L2.Ngb_L5.3" ;
+  mtg_cluster_sc:size "147"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "62"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_70 
+  a skos:Concept ;
+  mtg_cluster_sc:id "70" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_3666" ;
+  mtg_cluster_sc:name "cl70_e78_FGF10_L2.Ngb_L5.4" ;
+  mtg_cluster_sc:size "78"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5b" ;
+  mtg_cluster_sc:tree_order "63"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_65 
+  a skos:Concept ;
+  mtg_cluster_sc:id "65" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_24665" ;
+  mtg_cluster_sc:name "cl65_e344_CD200R1L_L6a.Plcxd3_L5.0" ;
+  mtg_cluster_sc:size "344"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "64"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_64 
+  a skos:Concept ;
+  mtg_cluster_sc:id "64" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_31739" ;
+  mtg_cluster_sc:name "cl64_e314_EFTUD1P1_L5a.Deptor_Pacsin2_L5.6" ;
+  mtg_cluster_sc:size "314"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "6a" ;
+  mtg_cluster_sc:tree_order "65"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_73 
+  a skos:Concept ;
+  mtg_cluster_sc:id "73" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_5977" ;
+  mtg_cluster_sc:name "cl73_e56_IL15_L6a.Plcxd3_L5.6" ;
+  mtg_cluster_sc:size "56"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "6a" ;
+  mtg_cluster_sc:tree_order "66"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_74 
+  a skos:Concept ;
+  mtg_cluster_sc:id "74" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_12509" ;
+  mtg_cluster_sc:name "cl74_e52_UBQLN2_L6a.Plcxd3_L6.0" ;
+  mtg_cluster_sc:size "52"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "6b" ;
+  mtg_cluster_sc:tree_order "67"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_76 
+  a skos:Concept ;
+  mtg_cluster_sc:id "76" ;
+  mtg_cluster_sc:name "cl76_d38_PREB_L5a.Deptor_Pacsin2_L5.0" ;
+  mtg_cluster_sc:size "38"^^xsd:int ;
+  mtg_cluster_sc:type "donor" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+.
+:pcl_77 
+  a skos:Concept ;
+  mtg_cluster_sc:id "77" ;
+  mtg_cluster_sc:name "cl77_d36_ABTB1_L5a.Deptor_Pacsin2_L5.0" ;
+  mtg_cluster_sc:size "36"^^xsd:int ;
+  mtg_cluster_sc:type "donor" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+.
+:pcl_80 
+  a skos:Concept ;
+  mtg_cluster_sc:id "80" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_15020" ;
+  mtg_cluster_sc:name "cl80_e19_OR2T8_L6a.Plcxd3_L5.9" ;
+  mtg_cluster_sc:size "19"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "6b" ;
+  mtg_cluster_sc:tree_order "68"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_79 
+  a skos:Concept ;
+  mtg_cluster_sc:id "79" ;
+  mtg_cluster_sc:name "cl79_d21_WISP1_L2.Ngb_L5.0" ;
+  mtg_cluster_sc:size "21"^^xsd:int ;
+  mtg_cluster_sc:type "donor" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+.
+:pcl_61 
+  a skos:Concept ;
+  mtg_cluster_sc:id "61" ;
+  skos:broader cl:CL_0000679 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_79" ;
+  mtg_cluster_sc:name "cl61_e373_ABO_L6a.Plcxd3_L5.7" ;
+  mtg_cluster_sc:size "373"^^xsd:int ;
+  mtg_cluster_sc:type "exc" ;
+  mtg_cluster_sc:layer_enriched "6a" ;
+  mtg_cluster_sc:tree_order "69"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000540 ;
+  mtg_cluster_sc:level2 cl:CL_0000679 ;
+.
+:pcl_84 
+  a skos:Concept ;
+  mtg_cluster_sc:id "84" ;
+  skos:broader cl:CL_0000129 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_13176" ;
+  mtg_cluster_sc:name "cl84_g63_IKZF1_Micro.Ctss_L3.2" ;
+  mtg_cluster_sc:size "63"^^xsd:int ;
+  mtg_cluster_sc:type "glia" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "70"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000125 ;
+  mtg_cluster_sc:level2 cl:CL_0000129 ;
+.
+:pcl_85 
+  a skos:Concept ;
+  mtg_cluster_sc:id "85" ;
+  skos:broader cl:CL_0002605 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4235" ;
+  mtg_cluster_sc:name "cl85_g61_GFAP_Astro.Gja1_L1.9" ;
+  mtg_cluster_sc:size "61"^^xsd:int ;
+  mtg_cluster_sc:type "glia" ;
+  mtg_cluster_sc:layer_enriched "2" ;
+  mtg_cluster_sc:tree_order "71"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000125 ;
+  mtg_cluster_sc:level2 cl:CL_0002605 ;
+.
+:pcl_83 
+  a skos:Concept ;
+  mtg_cluster_sc:id "83" ;
+  skos:broader cl:CL_0002605 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_12000" ;
+  mtg_cluster_sc:name "cl83_g230_TP53BP2_Astro.Gja1_L3.4" ;
+  mtg_cluster_sc:size "230"^^xsd:int ;
+  mtg_cluster_sc:type "glia" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:tree_order "72"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000125 ;
+  mtg_cluster_sc:level2 cl:CL_0002605 ;
+.
+:pcl_82 
+  a skos:Concept ;
+  mtg_cluster_sc:id "82" ;
+  skos:broader cl:CL_0002453 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_4462" ;
+  mtg_cluster_sc:name "cl82_g238_GPNMB_OPC.Pdgfra_L3.7" ;
+  mtg_cluster_sc:size "238"^^xsd:int ;
+  mtg_cluster_sc:type "glia" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "73"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000125 ;
+  mtg_cluster_sc:level2 cl:CL_0002453 ;
+.
+:pcl_81 
+  a skos:Concept ;
+  mtg_cluster_sc:id "81" ;
+  skos:broader cl:CL_0000128 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_29427" ;
+  mtg_cluster_sc:name "cl81_g313_SH3TC2_Oligo.Opalin_L4.7" ;
+  mtg_cluster_sc:size "313"^^xsd:int ;
+  mtg_cluster_sc:type "glia" ;
+  mtg_cluster_sc:layer_enriched "5a" ;
+  mtg_cluster_sc:tree_order "74"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000125 ;
+  mtg_cluster_sc:level2 cl:CL_0000128 ;
+.
+:pcl_86 
+  a skos:Concept ;
+  mtg_cluster_sc:id "86" ;
+  skos:broader cl:CL_0000128 ;
+  mtg_cluster_sc:name "cl86_d21_PDK4_Oligo.Opalin_L3.5" ;
+  mtg_cluster_sc:size "21"^^xsd:int ;
+  mtg_cluster_sc:type "donor" ;
+  mtg_cluster_sc:layer_enriched "3b" ;
+  mtg_cluster_sc:level1 cl:CL_0000125 ;
+  mtg_cluster_sc:level2 cl:CL_0000128 ;
+.
+:pcl_87 
+  a skos:Concept ;
+  mtg_cluster_sc:id "87" ;
+  skos:broader cl:CL_1001602 ;
+  mtg_cluster_sc:selectively_expresses "HGNC_3374" ;
+  mtg_cluster_sc:name "cl87_g9_EPAS1_Endo.Myl9_L3.9" ;
+  mtg_cluster_sc:size "9"^^xsd:int ;
+  mtg_cluster_sc:type "glia" ;
+  mtg_cluster_sc:layer_enriched "4" ;
+  mtg_cluster_sc:tree_order "75"^^xsd:int ;
+  mtg_cluster_sc:level1 cl:CL_0000115 ;
+  mtg_cluster_sc:level2 cl:CL_1001602 ;
+.
+:pcl_88 
+  a skos:Concept ;
+  mtg_cluster_sc:id "88" ;
+  mtg_cluster_sc:name "cl88_o17_RANGAP1_Vip.Chat_L2.7" ;
+  mtg_cluster_sc:size "17"^^xsd:int ;
+.
