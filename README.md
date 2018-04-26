@@ -3,17 +3,14 @@
 
 # allen-neuron-types
 
-This ontology... YOUR DESCRIPTION HERE
+Building an ontology of specialised neuron types from data - well supported terms may later migrate to CL.
+STATUS: EXPERIMENTAL.  CONTENTS NOT CURRENTLY DESIGNED/READY FOR RE-USE!
 
 ## Versions
 
 ### Stable release versions
 
-The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/alnt.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+NONE SO FAR
 
 ### Editors' version
 
