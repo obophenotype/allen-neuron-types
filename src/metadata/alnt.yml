@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/alnt
+
+idspace: ALNT
+base_url: /obo/alnt
+
+products:
+- alnt.owl: https://raw.githubusercontent.com/obophenotype/allen-neuron-types/master/alnt.owl
+- alnt.obo: https://raw.githubusercontent.com/obophenotype/allen-neuron-types/master/alnt.obo
+
+term_browser: ontobee
+example_terms:
+- ALNT_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/obophenotype/allen-neuron-types/v
+
+- prefix: /tracker/
+  replacement: https://github.com/obophenotype/allen-neuron-types/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/ALNT?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/obophenotype/allen-neuron-types/master/
