@@ -46,12 +46,22 @@ $(ONT).obo: $(ONT).owl
 # These can be regenerated with make all_imports
 
 IMPORTS = po ro pato go uberon
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
+IMPORTS_OWL = IMPORTS_OWL = seed.txt $(patsubst %, imports/%_terms.txt,$(IMPORTS))
+ $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
 
-# Use ROBOT, driven entirely by terms lists NOT from source ontology
+# generate seed with all referenced entities
+seed.txt: $SRC
+       $(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@
+
+# Generate terms.txt for each import
+imports/%_terms.txt: seed.txt
+       grep -i $(OBO)/$*_ $< > $@
+
+# Use ROBOT, driven by terms from source ontology
+
 imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
