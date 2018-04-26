@@ -1,0 +1,15 @@
+format-version: 1.2
+data-version: releases/2018-04-26
+remark: Allen Neuron Types
+import: http://purl.obolibrary.org/obo/alnt/imports/go_import.owl
+import: http://purl.obolibrary.org/obo/alnt/imports/pato_import.owl
+import: http://purl.obolibrary.org/obo/alnt/imports/po_import.owl
+import: http://purl.obolibrary.org/obo/alnt/imports/ro_import.owl
+import: http://purl.obolibrary.org/obo/alnt/imports/uberon_import.owl
+ontology: alnt
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/ALNT_00000000>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/ALNT_00000000> (alnt)\n\nSubClassOf(<http://purl.obolibrary.org/obo/ALNT_00000000> owl:Thing)\n\n\n)
+
+[Term]
+id: ALNT:00000000
+name: alnt
+
