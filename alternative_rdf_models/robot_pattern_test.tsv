@@ -1,0 +1,3 @@
+ID	CLASS_TYPE	Label	TYPE	NT	Marker1	Marker2
+ID	CLASS_TYPE	A rdfs:label	TYPE	C 'capable of' some %s	C expresses some %	C expresses Some %
+http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001	equivalent	LAMP5/NDNF-expressing GABAergic neuron	CL:0000540	GO:0061534	HGNC:16097	HGNC:26256
