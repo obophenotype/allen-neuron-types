@@ -1,0 +1,3430 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_62",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "62"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_12479"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl62_e153_UBE2E3_L5a.Deptor_Pacsin2_L3.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "153"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "51"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_63",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "280"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_23392"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "50"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "63"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl63_e280_CARM1P1_L5b.Samd3_L3.4"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_60",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "60"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "1537"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_23227"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "6a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl60_e1537_KCTD4_L2.Ngb_L5.7"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "49"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_61",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_79"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "69"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl61_e373_ABO_L6a.Plcxd3_L5.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "373"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "6a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "61"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_66",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl66_e167_SPAG6_L5a.Deptor_Pacsin2_L5.1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "66"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "59"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "167"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_11215"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_22",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_14257"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "61"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "22"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl22_i61_PCDH20_Vip.Mybpc1_L1.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "23"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_67",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "53"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4481"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "67"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "160"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl67_e160_GPR26_L6.Syt17_L4.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_23",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_3443"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl23_i62_EREG_Vip.Mybpc1_L3.9"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "27"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "62"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "23"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_64",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "65"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_31739"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "314"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "6a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl64_e314_EFTUD1P1_L5a.Deptor_Pacsin2_L5.6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "64"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_20",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "20"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "67"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "18"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_1543"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl20_i67_CBLN1_Vip.Chat_L3.0"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_65",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl65_e344_CD200R1L_L6a.Plcxd3_L5.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_24665"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "65"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "64"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "344"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_21",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl21_o60_ZNF557_L5b.Samd3_L2.9"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "60"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "21"
+        } ]
+      }
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_26",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "24"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl26_i80_BSPRY_Vip.Chat_L4.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "26"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_18232"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "80"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_27",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "37"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl27_i79_NPM1P10_Sst.Tacstd2_L5.4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "27"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "79"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_7912"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_68",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_1246"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "160"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "68"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl68_e160_C1R_L5a.Deptor_Pacsin2_L5.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "58"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_24",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "24"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "55"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl24_i55_SERPINF1_Vip.Mybpc1_L3.6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_8824"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "26"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_69",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl69_e147_CRABP1_L2.Ngb_L5.3"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "62"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "147"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_2338"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "69"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_25",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_5154"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl25_i60_HPGD_Sst.Tacstd2_L4.9"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "60"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "25"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "32"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_28",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "52"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_1996"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "28"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl28_i52_CKMT2_Pvalb.Wt1_L5.4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "43"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_29",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "7"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "29"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl29_i52_CHRNA4_Ndnf.Cxcl14_L1.1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_1958"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "52"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_51",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "51"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl51_o14_USP1_Ndnf.Cxcl14_L1.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "14"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_52",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl52_e812_LTK_L5b.Cdh13_L2.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "52"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_6721"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "47"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "812"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_50",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "15"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_7955"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "50"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "45"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl50_i15_NPY_Sst.Chodl_L5.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_11",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "30"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl11_i132_ADGRG6_Sst.Cbln4_L3.6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "11"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_13841"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "132"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_55",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "55"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_25172"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "2284"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "46"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl55_e2284_FREM3_L5b.Cdh13_L2.8"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3a"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_12",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "108"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "9"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_37453"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl12_i108_NPIPB11_Ndnf.Cxcl14_L1.5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "12"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_56",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl56_e1428_TPBG_L4.Sparcl1_L4.1"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "54"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "56"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "1428"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_12004"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_53",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "170"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "48"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl53_e170_GLP2R_L5b.Cdh13_L3.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4325"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "53"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_10",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "279"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_1434"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "10"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "29"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl10_i279_CALB1_Sst.Cbln4_L2.4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_54",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl54_o30_CYP39A1_L5a.Deptor_Pacsin2_L4.4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "54"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "30"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_15",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "33"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "15"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_7859"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "93"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl15_i93_NMU_Sst.Tacstd2_L4.3"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_16",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl16_i63_KLHDC8A_Sst.Tacstd2_L5.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "35"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "63"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_25573"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "16"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_57",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "777"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl57_e777_MKX_L5a.Deptor_Pacsin2_L4.6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "57"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_23729"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "57"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_13",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "13"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "107"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl13_i107_MC4R_Ndnf.Cxcl14_L1.4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_6932"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "8"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_14",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4609"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl14_i90_GRPR_Ndnf.Cxcl14_L1.4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "90"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "14"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_58",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl58_e870_FOLH1B_L5a.Deptor_Pacsin2_L4.5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "870"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "55"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "58"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_13636"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_19",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl19_i68_GGH_Vip.Chat_L2.5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "68"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "15"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "19"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4248"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_17",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "182"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "34"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_25233"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl17_i182_NIPAL3_Sst.Tacstd2_L4.8"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "17"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_18",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "18"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "72"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_27273"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "13"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl18_i72_ZCCHC12_Vip.Mybpc1_L2.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3a"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_84",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "84"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_13176"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "63"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "glia"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000129"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000125"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl84_g63_IKZF1_Micro.Ctss_L3.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "70"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000129"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_40",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "38"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_11782"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "27"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl40_i27_TH_Sst.Tacstd2_L5.3"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "40"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_9",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "9"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "17"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "175"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_5184"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl9_i175_HRH3_Vip.Chat_L2.4"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_8",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_15939"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl8_i387_WFDC2_Pvalb.Wt1_L3.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "39"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "8"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "387"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_85",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4235"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0002605"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl85_g61_GFAP_Astro.Gja1_L1.9"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0002605"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "71"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "85"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "glia"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "61"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000125"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_41",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "27"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "44"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "6a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "41"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl41_i27_GLP1R_Pvalb.Wt1_L5.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4324"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_82",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4462"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "73"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "82"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl82_g238_GPNMB_OPC.Pdgfra_L3.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "glia"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000125"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "238"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0002453"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0002453"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_7",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_13361"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "64"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "41"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl7_i64_MEPE_Pvalb.Wt1_L4.9"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_83",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000125"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0002605"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "230"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl83_g230_TP53BP2_Astro.Gja1_L3.4"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0002605"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "72"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "83"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_12000"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "glia"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_6",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "64"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl6_i64_NOS1_Pvalb.Wt1_L3.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_7872"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "31"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_88",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl88_o17_RANGAP1_Vip.Chat_L2.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "88"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "17"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_44",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "44"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "39"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl44_o39_PTK7_L5a.Deptor_Pacsin2_L4.1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_45",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "37"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_4553"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl45_i37_GPX1_Vip.Chat_L4.3"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "25"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "45"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_42",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "42"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "11"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "25"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl42_i25_CHRNA6_Vip.Mybpc1_L2.6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_15963"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_86",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000128"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "21"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000125"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl86_d21_PDK4_Oligo.Opalin_L3.5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "donor"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000128"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "86"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_87",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_1001602"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl87_g9_EPAS1_Endo.Myl9_L3.9"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_3374"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "75"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000115"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "87"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_1001602"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "glia"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "9"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_43",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl43_o22_ABCG2_Pvalb.Wt1_L3.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "43"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "22"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_6529"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "356"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl1_i356_LCP2_Ndnf.Car4_L3.2"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_5",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl5_i167_SULF1_Pvalb.Wt1_L4.8"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "40"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "167"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_20391"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_80",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "6b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl80_e19_OR2T8_L6a.Plcxd3_L5.9"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "80"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_15020"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "68"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "19"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_4",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "256"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl4_i256_TMEM255A_Ndnf.Car4_L4.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_26086"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "4"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_81",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000128"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000125"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl81_g313_SH3TC2_Oligo.Opalin_L4.7"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "74"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "313"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000128"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "81"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "glia"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_29427"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_3",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "3"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "283"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_7843"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "3"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl3_i283_NMBR_Ndnf.Car4_L1.3"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_2",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl2_i21_DBP_Ndnf.Car4_L1.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_2697"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "21"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "1"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_48",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "16"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "48"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl48_o16_ZBED4_Sst.Tacstd2_L3.5"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_49",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl49_o11_TTC32_L6a.Plcxd3_L5.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "11"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "49"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_46",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "46"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "16"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_53448"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl46_i16_DKFZp686K1684_Ndnf.Cxcl14_L2.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_47",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_8831"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl47_i17_PENK_Vip.Mybpc1_L3.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "47"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "14"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "17"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_73",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "73"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "6a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl73_e56_IL15_L6a.Plcxd3_L5.6"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_5977"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "56"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "66"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC_12693"
+        } ]
+      },
+      "lbl" : "VIP-expressing GABAergic neuron"
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_30",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_21641"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "10"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "42"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "30"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl30_i42_TSPAN12_Vip.Mybpc1_L1.5"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_74",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl74_e52_UBQLN2_L6a.Plcxd3_L6.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "74"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "67"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_12509"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "6b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "52"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC_26256"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "pcl_1001"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC_16097"
+        } ]
+      },
+      "lbl" : "LAMP5/NDNF-expressing GABAergic neuron"
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_71",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl71_e173_LNX2_L5a.Deptor_Pacsin2_L4.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "71"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_20421"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "56"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "173"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_72",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_1855"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl72_e93_CENPCP1_L5a.Deptor_Pacsin2_L4.0"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "72"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "93"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "52"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_77",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "77"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "donor"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "36"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl77_d36_ABTB1_L5a.Deptor_Pacsin2_L5.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_33",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "33"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "41"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl33_i41_IRS4_Sst.Tacstd2_L5.1"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "36"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_6128"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_78",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "60"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "78"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_10592"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "25"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl78_e25_SCN4B_L5b.Cdh13_L4.7"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_34",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "45"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl34_i45_CASC6_Vip.Mybpc1_L2.5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_49076"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "34"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "20"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_31",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "31"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl31_i80_ACADL_Pvalb.Wt1_L5.3"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_88"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "80"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "42"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_75",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "53"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl75_e53_DCSTAMP_L2.Ngb_L5.3"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_18549"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "61"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "75"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_32",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "47"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "19"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "32"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_29532"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl32_i47_LBH_Vip.Chat_L1.7"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_76",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "38"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl76_d38_PREB_L5a.Deptor_Pacsin2_L5.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "76"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "donor"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_70",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "78"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000679"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "63"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "70"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl70_e78_FGF10_L2.Ngb_L5.4"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_3666"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "exc"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_37",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "16"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl37_i64_CCDC184_Vip.Chat_L2.5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_33749"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "37"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "64"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_38",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "28"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "32"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl38_i32_NOG_Pvalb.Wt1_L3.2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_7866"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "38"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_79",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "79"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl79_d21_WISP1_L2.Ngb_L5.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "5a"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "21"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "donor"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_35",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "52"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl35_i52_YWHAZP2_Vip.Mybpc1_L3.0"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "35"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "22"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_31078"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3b"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_36",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "3a"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "33"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl36_i33_LGI2_Vip.Chat_L2.8"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "36"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_18710"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "21"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "pcl_1004"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC_11329"
+        } ]
+      },
+      "lbl" : "SST-expressing GABAergic neuron"
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_39",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#tree_order",
+          "val" : "12"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#type",
+          "val" : "inh"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "39"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level1",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000540"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#name",
+          "val" : "cl39_i29_SYT6_Ndnf.Cxcl14_L2.5"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#size",
+          "val" : "29"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#layer_enriched",
+          "val" : "2"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level2",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "HGNC_18638"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#level3",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002"
+        } ]
+      }
+    }, {
+      "id" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "http://purl.obolibrary.org/obo/cl#CL_0000617"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#selectively_expresses",
+          "val" : "http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC_9704"
+        }, {
+          "pred" : "http://www.jcvi.org/cl_ext/mtg_cluster_schema#id",
+          "val" : "pcl_1003"
+        } ]
+      },
+      "lbl" : "PVALB-expressing GABAergic neuron"
+    } ],
+    "edges" : [ {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_5",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_70",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_72",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_19",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_83",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_50",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_61",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_3",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_74",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_85",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_52",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_63",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_76",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_30",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_87",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_41",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_54",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_65",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_32",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_78",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_43",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_10",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_56",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_21",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_67",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_34",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_45",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_12",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_58",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_23",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_69",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_36",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_47",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_14",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_25",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_9",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_38",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_49",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_16",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_80",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_27",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_7",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_71",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_18",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_82",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_29",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_60",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_6",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_73",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_84",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_51",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_62",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_4",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_75",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_86",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_40",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_53",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_64",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_2",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_31",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_77",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_42",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_88",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_55",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_20",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_66",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_33",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_79",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_44",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_11",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_57",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_22",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_68",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_35",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_46",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_13",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_24",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_37",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_48",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_15",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_26",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_39",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_17",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_81",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_28",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "http://www.jcvi.org/cl_ext/mtg_cluster#pcl_8",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "id" : "http://www.jcvi.org/cl_ext/mtg_cluster",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "$Id: mtg_cluster.ttl, Ver 1.0, Apr 9, 2018, Mohamed Keshk. $"
+      } ]
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

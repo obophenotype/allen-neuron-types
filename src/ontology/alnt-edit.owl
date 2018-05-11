@@ -1,18 +1,2804 @@
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <Ontology>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/alnt/imports/go_import.owl"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/alnt/imports/uberon_import.owl"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/alnt/imports/ro_import.owl"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/alnt/imports/cl_import.owl"/>
+    </Ontology>
+    
 
 
-Ontology(<http://purl.obolibrary.org/obo/alnt.owl>
-Import(<http://purl.obolibrary.org/obo/alnt/imports/po_import.owl>)
-Import(<http://purl.obolibrary.org/obo/alnt/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/alnt/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/alnt/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/alnt/imports/uberon_import.owl>)
-Annotation(rdfs:comment "Allen Neuron Types")
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-Declaration(Class(<http://purl.obolibrary.org/obo/ALNT_00000000>))
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ALNT_00000000> "alnt"@en)
-)
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002100 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002100"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002215 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002292 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002292"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/evs/hugo -->
+
+    <Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/evs/hugo"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000115 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CL_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000128 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CL_0000128"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000129 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CL_0000129"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000540 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002453 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CL_0002453"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0061534 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/GO_0061534"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0061535 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/GO_0061535"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005390 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005391 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005392 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005393 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005394 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005395 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_6529"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl1_i356_LCP2_Ndnf.Car4_L3.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_10 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_10">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_1434"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl10_i279_CALB1_Sst.Cbln4_L2.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="http://ncicb.nci.nih.gov/xml/owl/evs/hugo"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="http://ncicb.nci.nih.gov/xml/owl/evs/hugo"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="http://ncicb.nci.nih.gov/xml/owl/evs/hugo"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="http://ncicb.nci.nih.gov/xml/owl/evs/hugo"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_11 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_13841"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl11_i132_ADGRG6_Sst.Cbln4_L3.6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_12 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_37453"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl12_i108_NPIPB11_Ndnf.Cxcl14_L1.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_13 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_6932"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl13_i107_MC4R_Ndnf.Cxcl14_L1.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_14 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_14">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4609"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl14_i90_GRPR_Ndnf.Cxcl14_L1.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_15 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_7859"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl15_i93_NMU_Sst.Tacstd2_L4.3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_16 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_25573"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl16_i63_KLHDC8A_Sst.Tacstd2_L5.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_17 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_17">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_25233"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl17_i182_NIPAL3_Sst.Tacstd2_L4.8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_18 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_18">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_27273"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl18_i72_ZCCHC12_Vip.Mybpc1_L2.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_19 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4248"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl19_i68_GGH_Vip.Chat_L2.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_2 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_2697"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl2_i21_DBP_Ndnf.Car4_L1.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_20 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_20">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_1543"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl20_i67_CBLN1_Vip.Chat_L3.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_21 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_21">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl21_o60_ZNF557_L5b.Samd3_L2.9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_22 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_22">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_14257"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl22_i61_PCDH20_Vip.Mybpc1_L1.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_23 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_3443"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl23_i62_EREG_Vip.Mybpc1_L3.9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_24 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_24">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_8824"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl24_i55_SERPINF1_Vip.Mybpc1_L3.6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_25 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_5154"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl25_i60_HPGD_Sst.Tacstd2_L4.9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_26 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_26">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_18232"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl26_i80_BSPRY_Vip.Chat_L4.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_27 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_27">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_7912"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl27_i79_NPM1P10_Sst.Tacstd2_L5.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_28 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_28">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_1996"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl28_i52_CKMT2_Pvalb.Wt1_L5.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_29 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_29">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_1958"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl29_i52_CHRNA4_Ndnf.Cxcl14_L1.1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_3 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_7843"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl3_i283_NMBR_Ndnf.Car4_L1.3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_30 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_30">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005390"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_21641"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl30_i42_TSPAN12_Vip.Mybpc1_L1.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_31 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_88"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl31_i80_ACADL_Pvalb.Wt1_L5.3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_32 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_32">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_29532"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl32_i47_LBH_Vip.Chat_L1.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_33 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_33">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_6128"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl33_i41_IRS4_Sst.Tacstd2_L5.1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_34 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_34">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_49076"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl34_i45_CASC6_Vip.Mybpc1_L2.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_35 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_35">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_31078"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl35_i52_YWHAZP2_Vip.Mybpc1_L3.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_36 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_36">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_18710"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl36_i33_LGI2_Vip.Chat_L2.8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_37 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_37">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_33749"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl37_i64_CCDC184_Vip.Chat_L2.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_38 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_38">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_7866"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl38_i32_NOG_Pvalb.Wt1_L3.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_39 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_39">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_18638"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl39_i29_SYT6_Ndnf.Cxcl14_L2.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_4 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_26086"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl4_i256_TMEM255A_Ndnf.Car4_L4.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_40 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_40">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_11782"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl40_i27_TH_Sst.Tacstd2_L5.3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_41 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_41">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4324"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl41_i27_GLP1R_Pvalb.Wt1_L5.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_42 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_42">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_15963"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl42_i25_CHRNA6_Vip.Mybpc1_L2.6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_43 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_43">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl43_o22_ABCG2_Pvalb.Wt1_L3.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_44 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_44">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl44_o39_PTK7_L5a.Deptor_Pacsin2_L4.1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_45 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_45">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4553"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl45_i37_GPX1_Vip.Chat_L4.3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_46 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_46">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_53448"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl46_i16_DKFZp686K1684_Ndnf.Cxcl14_L2.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_47 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_47">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_8831"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl47_i17_PENK_Vip.Mybpc1_L3.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_48 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_48">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl48_o16_ZBED4_Sst.Tacstd2_L3.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_49 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_49">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl49_o11_TTC32_L6a.Plcxd3_L5.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_5 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_20391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl5_i167_SULF1_Pvalb.Wt1_L4.8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_50 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_50">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_7955"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl50_i15_NPY_Sst.Chodl_L5.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_51 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_51">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl51_o14_USP1_Ndnf.Cxcl14_L1.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_52 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_52">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_6721"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl52_e812_LTK_L5b.Cdh13_L2.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_53 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_53">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4325"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl53_e170_GLP2R_L5b.Cdh13_L3.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_54 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_54">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl54_o30_CYP39A1_L5a.Deptor_Pacsin2_L4.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_55 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_55">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_25172"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl55_e2284_FREM3_L5b.Cdh13_L2.8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_56 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_56">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_12004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl56_e1428_TPBG_L4.Sparcl1_L4.1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_57 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_57">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_23729"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl57_e777_MKX_L5a.Deptor_Pacsin2_L4.6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_58 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_58">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_13636"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl58_e870_FOLH1B_L5a.Deptor_Pacsin2_L4.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_6 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_7872"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl6_i64_NOS1_Pvalb.Wt1_L3.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_60 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_60">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_23227"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl60_e1537_KCTD4_L2.Ngb_L5.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_61 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_61">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_79"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl61_e373_ABO_L6a.Plcxd3_L5.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_62 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_62">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_12479"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl62_e153_UBE2E3_L5a.Deptor_Pacsin2_L3.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_63 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_63">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_23392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl63_e280_CARM1P1_L5b.Samd3_L3.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_64 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_64">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_31739"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl64_e314_EFTUD1P1_L5a.Deptor_Pacsin2_L5.6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_65 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_65">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_24665"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl65_e344_CD200R1L_L6a.Plcxd3_L5.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_66 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_66">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_11215"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl66_e167_SPAG6_L5a.Deptor_Pacsin2_L5.1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_67 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_67">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4481"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl67_e160_GPR26_L6.Syt17_L4.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_68 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_68">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_1246"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl68_e160_C1R_L5a.Deptor_Pacsin2_L5.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_69 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_69">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_2338"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl69_e147_CRABP1_L2.Ngb_L5.3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_7 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_13361"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl7_i64_MEPE_Pvalb.Wt1_L4.9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_70 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_70">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_3666"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl70_e78_FGF10_L2.Ngb_L5.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_71 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_71">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_20421"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl71_e173_LNX2_L5a.Deptor_Pacsin2_L4.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_72 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_72">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_1855"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl72_e93_CENPCP1_L5a.Deptor_Pacsin2_L4.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_73 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_73">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_5977"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl73_e56_IL15_L6a.Plcxd3_L5.6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_74 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_74">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_12509"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl74_e52_UBQLN2_L6a.Plcxd3_L6.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_75 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_75">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_18549"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl75_e53_DCSTAMP_L2.Ngb_L5.3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_76 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_76">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl76_d38_PREB_L5a.Deptor_Pacsin2_L5.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_77 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_77">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl77_d36_ABTB1_L5a.Deptor_Pacsin2_L5.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_78 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_78">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_10592"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl78_e25_SCN4B_L5b.Cdh13_L4.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_79 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_79">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl79_d21_WISP1_L2.Ngb_L5.0</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_8 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_15939"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl8_i387_WFDC2_Pvalb.Wt1_L3.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_80 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_80">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005395"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_15020"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl80_e19_OR2T8_L6a.Plcxd3_L5.9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_81 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_81">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005394"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_29427"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl81_g313_SH3TC2_Oligo.Opalin_L4.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_82 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_82">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002453"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4462"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl82_g238_GPNMB_OPC.Pdgfra_L3.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_83 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_83">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_12000"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl83_g230_TP53BP2_Astro.Gja1_L3.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_84 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_84">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000129"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_13176"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl84_g63_IKZF1_Micro.Ctss_L3.2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_85 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_85">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_4235"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl85_g61_GFAP_Astro.Gja1_L1.9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_86 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_86">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000128"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005392"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl86_d21_PDK4_Oligo.Opalin_L3.5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_87 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_87">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005393"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_3374"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl87_g9_EPAS1_Endo.Myl9_L3.9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_88 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_88">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl88_o17_RANGAP1_Vip.Chat_L2.7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.jcvi.org/cl_ext/mtg_cluster#pcl_9 -->
+
+    <Class rdf:about="http://www.jcvi.org/cl_ext/mtg_cluster#pcl_9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005391"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <someValuesFrom rdf:resource="https://cbiit.cancer.gov/#HGNC_5184"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cl9_i175_HRH3_Vip.Chat_L2.4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_10592 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_10592"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_11215 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_11215"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_11782 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_11782"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_12000 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_12000"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_12004 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_12004"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_1246 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_1246"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_12479 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_12479"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_12509 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_12509"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_13176 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_13176"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_13361 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_13361"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_13636 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_13636"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_13841 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_13841"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_14257 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_14257"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_1434 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_1434"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_15020 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_15020"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_1543 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_1543"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_15939 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_15939"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_15963 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_15963"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_18232 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_18232"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_18549 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_18549"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_1855 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_1855"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_18638 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_18638"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_18710 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_18710"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_1958 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_1958"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_1996 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_1996"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_20391 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_20391"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_20421 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_20421"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_21641 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_21641"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_23227 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_23227"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_2338 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_2338"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_23392 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_23392"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_23729 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_23729"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_24665 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_24665"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_25172 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_25172"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_25233 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_25233"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_25573 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_25573"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_26086 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_26086"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_2697 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_2697"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_27273 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_27273"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_29427 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_29427"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_29532 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_29532"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_31078 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_31078"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_31739 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_31739"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_3374 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_3374"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_33749 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_33749"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_3443 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_3443"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_3666 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_3666"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_37453 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_37453"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4235 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4235"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4248 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4248"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4324 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4324"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4325 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4325"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4462 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4462"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4481 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4481"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4553 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4553"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_4609 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_4609"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_49076 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_49076"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_5154 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_5154"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_5184 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_5184"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_53448 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_53448"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_5977 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_5977"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_6128 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_6128"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_6529 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_6529"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_6721 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_6721"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_6932 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_6932"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_7843 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_7843"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_7859 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_7859"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_7866 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_7866"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_7872 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_7872"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_79 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_79"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_7912 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_7912"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_7955 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_7955"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_88 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_88"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_8824 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_8824"/>
+    
+
+
+    <!-- https://cbiit.cancer.gov/#HGNC_8831 -->
+
+    <Class rdf:about="https://cbiit.cancer.gov/#HGNC_8831"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

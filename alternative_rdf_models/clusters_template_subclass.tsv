@@ -1,0 +1,94 @@
+CLASS_TYPE	Genus	ID	Marker1	Marker2	Marker3	Marker4	NT	label	layer
+CLASS_TYPE	C %	ID	C expresses some %	C expresses some %	C expresses some %	C expresses some %	C 'capable of' some %	A rdfs:label	C 'has soma location' some %
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_62	HGNC:12479				GO:0061535	cl62_e153_UBE2E3_L5a.Deptor_Pacsin2_L3.7	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_63	HGNC:23392				GO:0061535	cl63_e280_CARM1P1_L5b.Samd3_L3.4	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_60	HGNC:23227				GO:0061535	cl60_e1537_KCTD4_L2.Ngb_L5.7	UBERON:0005395
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_61	HGNC:79				GO:0061535	cl61_e373_ABO_L6a.Plcxd3_L5.7	UBERON:0005395
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_66	HGNC:11215				GO:0061535	cl66_e167_SPAG6_L5a.Deptor_Pacsin2_L5.1	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_22	HGNC:14257				GO:0061534	cl22_i61_PCDH20_Vip.Mybpc1_L1.7	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_67	HGNC:4481				GO:0061535	cl67_e160_GPR26_L6.Syt17_L4.0	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_23	HGNC:3443				GO:0061534	cl23_i62_EREG_Vip.Mybpc1_L3.9	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_64	HGNC:31739				GO:0061535	cl64_e314_EFTUD1P1_L5a.Deptor_Pacsin2_L5.6	UBERON:0005395
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_20	HGNC:1543				GO:0061534	cl20_i67_CBLN1_Vip.Chat_L3.0	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_65	HGNC:24665				GO:0061535	cl65_e344_CD200R1L_L6a.Plcxd3_L5.0	UBERON:0005394
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_21						cl21_o60_ZNF557_L5b.Samd3_L2.9	UBERON:0005392
+subclass		http://www.w3.org/2004/02/skos/core#Concept							
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_26	HGNC:18232				GO:0061534	cl26_i80_BSPRY_Vip.Chat_L4.0	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_27	HGNC:7912				GO:0061534	cl27_i79_NPM1P10_Sst.Tacstd2_L5.4	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_68	HGNC:1246				GO:0061535	cl68_e160_C1R_L5a.Deptor_Pacsin2_L5.0	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_24	HGNC:8824				GO:0061534	cl24_i55_SERPINF1_Vip.Mybpc1_L3.6	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_69	HGNC:2338				GO:0061535	cl69_e147_CRABP1_L2.Ngb_L5.3	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_25	HGNC:5154				GO:0061534	cl25_i60_HPGD_Sst.Tacstd2_L4.9	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_28	HGNC:1996				GO:0061534	cl28_i52_CKMT2_Pvalb.Wt1_L5.4	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_29	HGNC:1958				GO:0061534	cl29_i52_CHRNA4_Ndnf.Cxcl14_L1.1	UBERON:0005390
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_51						cl51_o14_USP1_Ndnf.Cxcl14_L1.7	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_52	HGNC:6721				GO:0061535	cl52_e812_LTK_L5b.Cdh13_L2.0	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_50	HGNC:7955				GO:0061534	cl50_i15_NPY_Sst.Chodl_L5.0	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_11	HGNC:13841				GO:0061534	cl11_i132_ADGRG6_Sst.Cbln4_L3.6	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_55	HGNC:25172				GO:0061535	cl55_e2284_FREM3_L5b.Cdh13_L2.8	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_12	HGNC:37453				GO:0061534	cl12_i108_NPIPB11_Ndnf.Cxcl14_L1.5	UBERON:0005390
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_56	HGNC:12004				GO:0061535	cl56_e1428_TPBG_L4.Sparcl1_L4.1	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_53	HGNC:4325				GO:0061535	cl53_e170_GLP2R_L5b.Cdh13_L3.0	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_10	HGNC:1434				GO:0061534	cl10_i279_CALB1_Sst.Cbln4_L2.4	UBERON:0005391
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_54						cl54_o30_CYP39A1_L5a.Deptor_Pacsin2_L4.4	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_15	HGNC:7859				GO:0061534	cl15_i93_NMU_Sst.Tacstd2_L4.3	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_16	HGNC:25573				GO:0061534	cl16_i63_KLHDC8A_Sst.Tacstd2_L5.2	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_57	HGNC:23729				GO:0061535	cl57_e777_MKX_L5a.Deptor_Pacsin2_L4.6	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_13	HGNC:6932				GO:0061534	cl13_i107_MC4R_Ndnf.Cxcl14_L1.4	UBERON:0005390
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_14	HGNC:4609				GO:0061534	cl14_i90_GRPR_Ndnf.Cxcl14_L1.4	UBERON:0005390
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_58	HGNC:13636				GO:0061535	cl58_e870_FOLH1B_L5a.Deptor_Pacsin2_L4.5	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_19	HGNC:4248				GO:0061534	cl19_i68_GGH_Vip.Chat_L2.5	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_17	HGNC:25233				GO:0061534	cl17_i182_NIPAL3_Sst.Tacstd2_L4.8	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_18	HGNC:27273				GO:0061534	cl18_i72_ZCCHC12_Vip.Mybpc1_L2.7	UBERON:0005392
+subclass	http://purl.obolibrary.org/obo/CL_0000129	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_84	HGNC:13176					cl84_g63_IKZF1_Micro.Ctss_L3.2	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_40	HGNC:11782				GO:0061534	cl40_i27_TH_Sst.Tacstd2_L5.3	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_9	HGNC:5184				GO:0061534	cl9_i175_HRH3_Vip.Chat_L2.4	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_8	HGNC:15939				GO:0061534	cl8_i387_WFDC2_Pvalb.Wt1_L3.2	UBERON:0005392
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_85	HGNC:4235					cl85_g61_GFAP_Astro.Gja1_L1.9	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_41	HGNC:4324				GO:0061534	cl41_i27_GLP1R_Pvalb.Wt1_L5.7	UBERON:0005395
+subclass	http://purl.obolibrary.org/obo/CL_0002453	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_82	HGNC:4462					cl82_g238_GPNMB_OPC.Pdgfra_L3.7	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_7	HGNC:13361				GO:0061534	cl7_i64_MEPE_Pvalb.Wt1_L4.9	UBERON:0005394
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_83	HGNC:12000					cl83_g230_TP53BP2_Astro.Gja1_L3.4	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_6	HGNC:7872				GO:0061534	cl6_i64_NOS1_Pvalb.Wt1_L3.2	UBERON:0005392
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_88						cl88_o17_RANGAP1_Vip.Chat_L2.7	
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_44						cl44_o39_PTK7_L5a.Deptor_Pacsin2_L4.1	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_45	HGNC:4553				GO:0061534	cl45_i37_GPX1_Vip.Chat_L4.3	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_42	HGNC:15963				GO:0061534	cl42_i25_CHRNA6_Vip.Mybpc1_L2.6	UBERON:0005392
+subclass	http://purl.obolibrary.org/obo/CL_0000128	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_86						cl86_d21_PDK4_Oligo.Opalin_L3.5	UBERON:0005392
+subclass	CL:0000115	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_87	HGNC:3374					cl87_g9_EPAS1_Endo.Myl9_L3.9	UBERON:0005393
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_43						cl43_o22_ABCG2_Pvalb.Wt1_L3.2	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1	HGNC:6529				GO:0061534	cl1_i356_LCP2_Ndnf.Car4_L3.2	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_5	HGNC:20391				GO:0061534	cl5_i167_SULF1_Pvalb.Wt1_L4.8	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_80	HGNC:15020				GO:0061535	cl80_e19_OR2T8_L6a.Plcxd3_L5.9	UBERON:0005395
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_4	HGNC:26086				GO:0061534	cl4_i256_TMEM255A_Ndnf.Car4_L4.7	UBERON:0005394
+subclass	http://purl.obolibrary.org/obo/CL_0000128	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_81	HGNC:29427					cl81_g313_SH3TC2_Oligo.Opalin_L4.7	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_3	HGNC:7843				GO:0061534	cl3_i283_NMBR_Ndnf.Car4_L1.3	UBERON:0005390
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_2	HGNC:2697				GO:0061534	cl2_i21_DBP_Ndnf.Car4_L1.2	UBERON:0005390
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_48						cl48_o16_ZBED4_Sst.Tacstd2_L3.5	UBERON:0005392
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_49						cl49_o11_TTC32_L6a.Plcxd3_L5.2	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_46	HGNC:53448				GO:0061534	cl46_i16_DKFZp686K1684_Ndnf.Cxcl14_L2.0	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_47	HGNC:8831				GO:0061534	cl47_i17_PENK_Vip.Mybpc1_L3.2	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_73	HGNC:5977				GO:0061535	cl73_e56_IL15_L6a.Plcxd3_L5.6	UBERON:0005395
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1002	http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC:12693						
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_30	HGNC:21641				GO:0061534	cl30_i42_TSPAN12_Vip.Mybpc1_L1.5	UBERON:0005390
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_74	HGNC:12509				GO:0061535	cl74_e52_UBQLN2_L6a.Plcxd3_L6.0	UBERON:0005395
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1001	http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC:26256	http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC:16097					
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_71	HGNC:20421				GO:0061535	cl71_e173_LNX2_L5a.Deptor_Pacsin2_L4.2	UBERON:0005393
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_72	HGNC:1855				GO:0061535	cl72_e93_CENPCP1_L5a.Deptor_Pacsin2_L4.0	UBERON:0005393
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_77						cl77_d36_ABTB1_L5a.Deptor_Pacsin2_L5.0	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_33	HGNC:6128				GO:0061534	cl33_i41_IRS4_Sst.Tacstd2_L5.1	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_78	HGNC:10592				GO:0061535	cl78_e25_SCN4B_L5b.Cdh13_L4.7	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_34	HGNC:49076				GO:0061534	cl34_i45_CASC6_Vip.Mybpc1_L2.5	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_31	HGNC:88				GO:0061534	cl31_i80_ACADL_Pvalb.Wt1_L5.3	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_75	HGNC:18549				GO:0061535	cl75_e53_DCSTAMP_L2.Ngb_L5.3	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_32	HGNC:29532				GO:0061534	cl32_i47_LBH_Vip.Chat_L1.7	UBERON:0005391
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_76						cl76_d38_PREB_L5a.Deptor_Pacsin2_L5.0	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_70	HGNC:3666				GO:0061535	cl70_e78_FGF10_L2.Ngb_L5.4	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_37	HGNC:33749				GO:0061534	cl37_i64_CCDC184_Vip.Chat_L2.5	UBERON:0005391
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_38	HGNC:7866				GO:0061534	cl38_i32_NOG_Pvalb.Wt1_L3.2	UBERON:0005392
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_79						cl79_d21_WISP1_L2.Ngb_L5.0	UBERON:0005394
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_35	HGNC:31078				GO:0061534	cl35_i52_YWHAZP2_Vip.Mybpc1_L3.0	UBERON:0005392
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_36	HGNC:18710				GO:0061534	cl36_i33_LGI2_Vip.Chat_L2.8	UBERON:0005392
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1004	http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC:11329						
+subclass	CL:0000540	http://www.jcvi.org/cl_ext/mtg_cluster#pcl_39	HGNC:18638				GO:0061534	cl39_i29_SYT6_Ndnf.Cxcl14_L2.5	UBERON:0005391
+subclass		http://www.jcvi.org/cl_ext/mtg_cluster#pcl_1003	http://ncicb.nci.nih.gov/xml/owl/evs/hugo#HGNC:9704						
