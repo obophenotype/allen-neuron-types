@@ -1,0 +1,624 @@
+@prefix : <http://www.jcvi.org/framework/nsf2_kriegstein#> .
+@prefix cl: <http://purl.obolibrary.org/obo/cl#> .
+@prefix dc: <http://purl.org/dc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix hugo: <http://ncicb.nci.nih.gov/xml/owl/evs/hugo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix go_sc: <http://www.jcvi.org/framework/go_schema#> .
+@prefix obo_sc: <http://www.jcvi.org/framework/obo_schema#> .
+@prefix nsf2_sc: <http://www.jcvi.org/framework/nsf2_schema#> .
+@base <http://www.jcvi.org/framework/nsf2_kriegstein> .
+
+<http://www.jcvi.org/framework/nsf2_kriegstein> rdf:type owl:Ontology ;
+                                                 owl:versionInfo "$Id: nsf2_kriegstein.ttl, Ver 1.0, Oct 3, 2018, Mohamed Keshk. $" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.jcvi.org/framework/nsf2_schema#f_measure
+nsf2_sc:f_measure rdf:type owl:AnnotationProperty .
+
+
+###  http://www.jcvi.org/framework/nsf2_schema#marker_count
+nsf2_sc:marker_count rdf:type owl:AnnotationProperty .
+
+
+###  http://www.jcvi.org/framework/obo_schema#expresses
+obo_sc:expresses rdf:type owl:AnnotationProperty .
+
+
+###  http://www.jcvi.org/framework/obo_schema#id
+obo_sc:id rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#broader
+skos:broader rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+skos:Concept rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#Astrocyte
+:Astrocyte rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           nsf2_sc:f_measure "0.762711864"^^xsd:double ;
+           nsf2_sc:marker_count "2"^^xsd:int ;
+           obo_sc:expresses hugo:HGNC_14923 ,
+                            hugo:HGNC_2475 ;
+           obo_sc:id "Astrocyte" ;
+           rdfs:label "Astrocyte" ;
+           skos:broader cl:CL_0000127 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#Choroid
+:Choroid rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.948275862"^^xsd:double ;
+         nsf2_sc:marker_count "2"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_12405 ,
+                          hugo:HGNC_2065 ;
+         obo_sc:id "Choroid" ;
+         rdfs:label "Choroid" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#EN_PFC1
+:EN_PFC1 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.698113208"^^xsd:double ;
+         nsf2_sc:marker_count "3"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_16697 ,
+                          hugo:HGNC_1757 ,
+                          hugo:HGNC_28517 ;
+         obo_sc:id "EN_PFC1" ;
+         rdfs:label "EN-PFC1" ;
+         skos:broader cl:CL_0000679 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#EN_PFC2
+:EN_PFC2 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.68359375"^^xsd:double ;
+         nsf2_sc:marker_count "2"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_11089 ,
+                          hugo:HGNC_1544 ;
+         obo_sc:id "EN_PFC2" ;
+         rdfs:label "EN-PFC2" ;
+         skos:broader cl:CL_0000679 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#EN_PFC3
+:EN_PFC3 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.396039604"^^xsd:double ;
+         nsf2_sc:marker_count "3"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_13533 ,
+                          hugo:HGNC_16443 ,
+                          hugo:HGNC_4327 ;
+         obo_sc:id "EN_PFC3" ;
+         rdfs:label "EN-PFC3" ;
+         skos:broader cl:CL_0000679 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#EN_V1_1
+:EN_V1_1 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.597609562"^^xsd:double ;
+         nsf2_sc:marker_count "2"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_13506 ,
+                          hugo:HGNC_2418 ;
+         obo_sc:id "EN_V1_1" ;
+         rdfs:label "EN-V1-1" ;
+         skos:broader cl:CL_0000679 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#EN_V1_2
+:EN_V1_2 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.505617978"^^xsd:double ;
+         nsf2_sc:marker_count "3"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_21580 ,
+                          hugo:HGNC_28522 ,
+                          hugo:HGNC_7655 ;
+         obo_sc:id "EN_V1_2" ;
+         rdfs:label "EN-V1-2" ;
+         skos:broader cl:CL_0000679 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#EN_V1_3
+:EN_V1_3 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.710784314"^^xsd:double ;
+         nsf2_sc:marker_count "4"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_10484 ,
+                          hugo:HGNC_164 ,
+                          hugo:HGNC_6677 ,
+                          hugo:HGNC_7734 ;
+         obo_sc:id "EN_V1_3" ;
+         rdfs:label "EN-V1-3" ;
+         skos:broader cl:CL_0000679 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#Endothelial
+:Endothelial rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             nsf2_sc:f_measure "0.942028986"^^xsd:double ;
+             nsf2_sc:marker_count "1"^^xsd:int ;
+             obo_sc:expresses hugo:HGNC_25181 ;
+             obo_sc:id "Endothelial" ;
+             rdfs:label "Endothelial" ;
+             skos:broader cl:CL_0000115 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#Glyc
+:Glyc rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      nsf2_sc:f_measure "0.403726708"^^xsd:double ;
+      nsf2_sc:marker_count "2"^^xsd:int ;
+      obo_sc:expresses hugo:HGNC_3353 ,
+                       hugo:HGNC_8826 ;
+      obo_sc:id "Glyc" ;
+      rdfs:label "Glyc" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IN_CTX_CGE1
+:IN_CTX_CGE1 rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             nsf2_sc:f_measure "0.430672269"^^xsd:double ;
+             nsf2_sc:marker_count "2"^^xsd:int ;
+             obo_sc:expresses hugo:HGNC_2918 ,
+                              hugo:HGNC_9393 ;
+             obo_sc:id "IN_CTX_CGE1" ;
+             rdfs:label "IN-CTX-CGE1" ;
+             skos:broader cl:CL_0000617 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IN_CTX_CGE2
+:IN_CTX_CGE2 rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             nsf2_sc:f_measure "0.588235294"^^xsd:double ;
+             nsf2_sc:marker_count "2"^^xsd:int ;
+             obo_sc:expresses hugo:HGNC_4580 ,
+                              hugo:HGNC_7976 ;
+             obo_sc:id "IN_CTX_CGE2" ;
+             rdfs:label "IN-CTX-CGE2" ;
+             skos:broader cl:CL_0000617 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IN_CTX_MGE1
+:IN_CTX_MGE1 rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             nsf2_sc:f_measure "0.514403292"^^xsd:double ;
+             nsf2_sc:marker_count "3"^^xsd:int ;
+             obo_sc:expresses hugo:HGNC_3432 ,
+                              hugo:HGNC_4092 ,
+                              hugo:HGNC_6776 ;
+             obo_sc:id "IN_CTX_MGE1" ;
+             rdfs:label "IN-CTX-MGE1" ;
+             skos:broader cl:CL_0000617 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IN_CTX_MGE2
+:IN_CTX_MGE2 rdf:type owl:NamedIndividual ,
+                      skos:Concept ;
+             nsf2_sc:f_measure "0.461538462"^^xsd:double ;
+             nsf2_sc:marker_count "3"^^xsd:int ;
+             obo_sc:expresses hugo:HGNC_18957 ,
+                              hugo:HGNC_3432 ,
+                              hugo:HGNC_6776 ;
+             obo_sc:id "IN_CTX_MGE2" ;
+             rdfs:label "IN-CTX-MGE2" ;
+             skos:broader cl:CL_0000617 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IN_STR
+:IN_STR rdf:type owl:NamedIndividual ,
+                 skos:Concept ;
+        nsf2_sc:f_measure "0.470383275"^^xsd:double ;
+        nsf2_sc:marker_count "1"^^xsd:int ;
+        obo_sc:expresses hugo:HGNC_3823 ;
+        obo_sc:id "IN_STR" ;
+        rdfs:label "IN-STR" ;
+        skos:broader cl:CL_0000617 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IPC_div1
+:IPC_div1 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.681818182"^^xsd:double ;
+          nsf2_sc:marker_count "2"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_1580 ,
+                           hugo:HGNC_7762 ;
+          obo_sc:id "IPC_div1" ;
+          rdfs:label "IPC-div1" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IPC_div2
+:IPC_div2 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.652173913"^^xsd:double ;
+          nsf2_sc:marker_count "4"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_13861 ,
+                           hugo:HGNC_30288 ,
+                           hugo:HGNC_30293 ,
+                           hugo:HGNC_3372 ;
+          obo_sc:id "IPC_div2" ;
+          rdfs:label "IPC-div2" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IPC_nEN1
+:IPC_nEN1 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.426136364"^^xsd:double ;
+          nsf2_sc:marker_count "2"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_1371 ,
+                           hugo:HGNC_7817 ;
+          obo_sc:id "IPC_nEN1" ;
+          rdfs:label "IPC-nEN1" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IPC_nEN2
+:IPC_nEN2 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.3"^^xsd:double ;
+          nsf2_sc:marker_count "2"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_11331 ,
+                           hugo:HGNC_16973 ;
+          obo_sc:id "IPC_nEN2" ;
+          rdfs:label "IPC-nEN2" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#IPC_nEN3
+:IPC_nEN3 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.364238411"^^xsd:double ;
+          nsf2_sc:marker_count "3"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_18254 ,
+                           hugo:HGNC_25484 ,
+                           hugo:HGNC_3372 ;
+          obo_sc:id "IPC_nEN3" ;
+          rdfs:label "IPC-nEN3" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#MGE_IPC1
+:MGE_IPC1 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.606060606"^^xsd:double ;
+          nsf2_sc:marker_count "3"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_12327 ,
+                           hugo:HGNC_1579 ,
+                           hugo:HGNC_9690 ;
+          obo_sc:id "MGE_IPC1" ;
+          rdfs:label "MGE-IPC1" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#MGE_IPC2
+:MGE_IPC2 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.630841121"^^xsd:double ;
+          nsf2_sc:marker_count "3"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_11989 ,
+                           hugo:HGNC_4093 ,
+                           hugo:HGNC_4776 ;
+          obo_sc:id "MGE_IPC2" ;
+          rdfs:label "MGE-IPC2" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#MGE_IPC3
+:MGE_IPC3 rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.35"^^xsd:double ;
+          nsf2_sc:marker_count "3"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_11825 ,
+                           hugo:HGNC_2198 ,
+                           hugo:HGNC_2914 ;
+          obo_sc:id "MGE_IPC3" ;
+          rdfs:label "MGE-IPC3" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#MGE_RG1
+:MGE_RG1 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.446428571"^^xsd:double ;
+         nsf2_sc:marker_count "3"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_18581 ,
+                          hugo:HGNC_30871 ,
+                          hugo:HGNC_8804 ;
+         obo_sc:id "MGE_RG1" ;
+         rdfs:label "MGE-RG1" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#MGE_RG2
+:MGE_RG2 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.384615385"^^xsd:double ;
+         nsf2_sc:marker_count "5"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_10259 ,
+                          hugo:HGNC_11825 ,
+                          hugo:HGNC_12556 ,
+                          hugo:HGNC_1777 ,
+                          hugo:HGNC_6947 ;
+         obo_sc:id "MGE_RG2" ;
+         rdfs:label "MGE-RG2" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#MGE_div
+:MGE_div rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.601503759"^^xsd:double ;
+         nsf2_sc:marker_count "3"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_19715 ,
+                          hugo:HGNC_25568 ,
+                          hugo:HGNC_2914 ;
+         obo_sc:id "MGE_div" ;
+         rdfs:label "MGE-div" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#Microglia
+:Microglia rdf:type owl:NamedIndividual ,
+                    skos:Concept ;
+           nsf2_sc:f_measure "0.898123324"^^xsd:double ;
+           nsf2_sc:marker_count "2"^^xsd:int ;
+           obo_sc:expresses hugo:HGNC_11255 ,
+                            hugo:HGNC_29612 ;
+           obo_sc:id "Microglia" ;
+           rdfs:label "Microglia" ;
+           skos:broader cl:CL_0000129 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#Mural
+:Mural rdf:type owl:NamedIndividual ,
+                skos:Concept ;
+       nsf2_sc:f_measure "0.873015873"^^xsd:double ;
+       nsf2_sc:marker_count "2"^^xsd:int ;
+       obo_sc:expresses hugo:HGNC_20945 ,
+                        hugo:HGNC_60 ;
+       obo_sc:id "Mural" ;
+       rdfs:label "Mural" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#OPC
+:OPC rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     nsf2_sc:f_measure "0.854700855"^^xsd:double ;
+     nsf2_sc:marker_count "2"^^xsd:int ;
+     obo_sc:expresses hugo:HGNC_612 ,
+                      hugo:HGNC_9117 ;
+     obo_sc:id "OPC" ;
+     rdfs:label "OPC" ;
+     skos:broader cl:CL_0002453 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#RG_div1
+:RG_div1 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.767386091"^^xsd:double ;
+         nsf2_sc:marker_count "3"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_11554 ,
+                          hugo:HGNC_23023 ,
+                          hugo:HGNC_25444 ;
+         obo_sc:id "RG_div1" ;
+         rdfs:label "RG-div1" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#RG_div2
+:RG_div2 rdf:type owl:NamedIndividual ,
+                  skos:Concept ;
+         nsf2_sc:f_measure "0.52173913"^^xsd:double ;
+         nsf2_sc:marker_count "5"^^xsd:int ;
+         obo_sc:expresses hugo:HGNC_24575 ,
+                          hugo:HGNC_29108 ,
+                          hugo:HGNC_29397 ,
+                          hugo:HGNC_30827 ,
+                          hugo:HGNC_6947 ;
+         obo_sc:id "RG_div2" ;
+         rdfs:label "RG-div2" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#RG_early
+:RG_early rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.555555556"^^xsd:double ;
+          nsf2_sc:marker_count "2"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_18581 ,
+                           hugo:HGNC_5009 ;
+          obo_sc:id "RG_early" ;
+          rdfs:label "RG-early" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#U1
+:U1 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    nsf2_sc:f_measure "0.833333333"^^xsd:double ;
+    nsf2_sc:marker_count "2"^^xsd:int ;
+    obo_sc:expresses hugo:HGNC_2209 ,
+                     hugo:HGNC_7060 ;
+    obo_sc:id "U1" ;
+    rdfs:label "U1" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#U2
+:U2 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    nsf2_sc:f_measure "0.916030534"^^xsd:double ;
+    nsf2_sc:marker_count "2"^^xsd:int ;
+    obo_sc:expresses hugo:HGNC_15480 ,
+                     hugo:HGNC_6724 ;
+    obo_sc:id "U2" ;
+    rdfs:label "U2" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#U3
+:U3 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    nsf2_sc:f_measure "0.808823529"^^xsd:double ;
+    nsf2_sc:marker_count "1"^^xsd:int ;
+    obo_sc:expresses hugo:HGNC_36179 ;
+    obo_sc:id "U3" ;
+    rdfs:label "U3" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#U4
+:U4 rdf:type owl:NamedIndividual ,
+             skos:Concept ;
+    nsf2_sc:f_measure "0.889423077"^^xsd:double ;
+    nsf2_sc:marker_count "1"^^xsd:int ;
+    obo_sc:expresses hugo:HGNC_37297 ;
+    obo_sc:id "U4" ;
+    rdfs:label "U4" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nEN_early1
+:nEN_early1 rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            nsf2_sc:f_measure "0.669642857"^^xsd:double ;
+            nsf2_sc:marker_count "4"^^xsd:int ;
+            obo_sc:expresses hugo:HGNC_10976 ,
+                             hugo:HGNC_37155 ,
+                             hugo:HGNC_7762 ,
+                             hugo:HGNC_9441 ;
+            obo_sc:id "nEN_early1" ;
+            rdfs:label "nEN-early1" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nEN_early2
+:nEN_early2 rdf:type owl:NamedIndividual ,
+                     skos:Concept ;
+            nsf2_sc:f_measure "0.511060259"^^xsd:double ;
+            nsf2_sc:marker_count "3"^^xsd:int ;
+            obo_sc:expresses hugo:HGNC_18634 ,
+                             hugo:HGNC_22205 ,
+                             hugo:HGNC_8004 ;
+            obo_sc:id "nEN_early2" ;
+            rdfs:label "nEN-early2" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nEN_late
+:nEN_late rdf:type owl:NamedIndividual ,
+                   skos:Concept ;
+          nsf2_sc:f_measure "0.367156208"^^xsd:double ;
+          nsf2_sc:marker_count "3"^^xsd:int ;
+          obo_sc:expresses hugo:HGNC_11785 ,
+                           hugo:HGNC_15846 ,
+                           hugo:HGNC_27165 ;
+          obo_sc:id "nEN_late" ;
+          rdfs:label "nEN-late" .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nIN1
+:nIN1 rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      nsf2_sc:f_measure "0.361842105"^^xsd:double ;
+      nsf2_sc:marker_count "3"^^xsd:int ;
+      obo_sc:expresses hugo:HGNC_21735 ,
+                       hugo:HGNC_29299 ,
+                       hugo:HGNC_4574 ;
+      obo_sc:id "nIN1" ;
+      rdfs:label "nIN1" ;
+      skos:broader cl:CL_0000099 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nIN2
+:nIN2 rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      nsf2_sc:f_measure "0.284090909"^^xsd:double ;
+      nsf2_sc:marker_count "3"^^xsd:int ;
+      obo_sc:expresses hugo:HGNC_11805 ,
+                       hugo:HGNC_30552 ,
+                       hugo:HGNC_9091 ;
+      obo_sc:id "nIN2" ;
+      rdfs:label "nIN2" ;
+      skos:broader cl:CL_0000099 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nIN3
+:nIN3 rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      nsf2_sc:f_measure "0.379746835"^^xsd:double ;
+      nsf2_sc:marker_count "4"^^xsd:int ;
+      obo_sc:expresses hugo:HGNC_18567 ,
+                       hugo:HGNC_21735 ,
+                       hugo:HGNC_9091 ,
+                       hugo:HGNC_9102 ;
+      obo_sc:id "nIN3" ;
+      rdfs:label "nIN3" ;
+      skos:broader cl:CL_0000099 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nIN4
+:nIN4 rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      nsf2_sc:f_measure "0.416666667"^^xsd:double ;
+      nsf2_sc:marker_count "3"^^xsd:int ;
+      obo_sc:expresses hugo:HGNC_10519 ,
+                       hugo:HGNC_11825 ,
+                       hugo:HGNC_11972 ;
+      obo_sc:id "nIN4" ;
+      rdfs:label "nIN4" ;
+      skos:broader cl:CL_0000099 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#nIN5
+:nIN5 rdf:type owl:NamedIndividual ,
+               skos:Concept ;
+      nsf2_sc:f_measure "0.416666667"^^xsd:double ;
+      nsf2_sc:marker_count "2"^^xsd:int ;
+      obo_sc:expresses hugo:HGNC_11825 ,
+                       hugo:HGNC_9919 ;
+      obo_sc:id "nIN5" ;
+      rdfs:label "nIN5" ;
+      skos:broader cl:CL_0000099 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#oRG
+:oRG rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     nsf2_sc:f_measure "0.651340996"^^xsd:double ;
+     nsf2_sc:marker_count "4"^^xsd:int ;
+     obo_sc:expresses hugo:HGNC_13819 ,
+                      hugo:HGNC_21063 ,
+                      hugo:HGNC_22223 ,
+                      hugo:HGNC_2884 ;
+     obo_sc:id "oRG" ;
+     rdfs:label "oRG" ;
+     skos:broader cl:CL_0000681 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#tRG
+:tRG rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     nsf2_sc:f_measure "0.61440678"^^xsd:double ;
+     nsf2_sc:marker_count "2"^^xsd:int ;
+     obo_sc:expresses hugo:HGNC_16731 ,
+                      hugo:HGNC_2389 ;
+     obo_sc:id "tRG" ;
+     rdfs:label "tRG" ;
+     skos:broader cl:CL_0000681 .
+
+
+###  http://www.jcvi.org/framework/nsf2_kriegstein#vRG
+:vRG rdf:type owl:NamedIndividual ,
+              skos:Concept ;
+     nsf2_sc:f_measure "0.363636364"^^xsd:double ;
+     nsf2_sc:marker_count "2"^^xsd:int ;
+     obo_sc:expresses hugo:HGNC_23428 ,
+                      hugo:HGNC_6623 ;
+     obo_sc:id "vRG" ;
+     rdfs:label "vRG" ;
+     skos:broader cl:CL_0000681 .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
