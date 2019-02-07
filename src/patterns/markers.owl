@@ -1,0 +1,610 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.jcvi.org/cl_ext/markers.owl#"
+     xml:base="http://www.jcvi.org/cl_ext/markers.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.jcvi.org/cl_ext/markers.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:10640 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:10640">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CXCL14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:10941 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:10941">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC1A3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:10967 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:10967">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC22A3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:11168 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:11168">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNTB1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:11329 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:11329">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SST</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:11517 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:11517">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAC1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:11521 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:11521">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAC3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:11773 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:11773">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGFBR2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:11782 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:11782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:12693 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:12693">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:13361 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:13361">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEPE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:14268 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:14268">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDH18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:14632 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:14632">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADAMTSL1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:1544 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:1544">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CBLN2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:15478 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:15478">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADAM33</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:15723 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:15723">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAGE2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:16041 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16041">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMCN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:16231 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:16231">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CBLN4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:17119 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:17119">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL26</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:17265 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:17265">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABI3BP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:17379 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:17379">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APBB1IP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:19347 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:19347">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUX2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:20151 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:20151">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC17A8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:20986 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:20986">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMYD1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:21063 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:21063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOXD1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:21397 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:21397">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCML4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:21569 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:21569">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THEMIS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:21637 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:21637">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SATB2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:2192 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:2192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COL15A1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:2210 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:2210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COL5A2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:23503 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:23503">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLITRK6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:23571 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:23571">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COBLL1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:23723 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:23723">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CERCAM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:24201 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:24201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPRM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:25149 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:25149">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGFEM1P</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:26086 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:26086">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMEM255A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:26159 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:26159">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPED1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:26821 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:26821">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCDC141</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:26851 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:26851">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCDC168</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:27013 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:27013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRABD2A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:27475 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:27475">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAS2L3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:27652 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:27652">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPLX3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:28285 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:28285">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18orf42</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:28317 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:28317">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STK32A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:29185 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:29185">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLCH1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:29634 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:29634">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEGF10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:30670 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:30670">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SV2C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:31822 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:31822">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLCXD3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:3446 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:3604 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3604">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBN2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:3690 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:3690">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FGFR3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:4093 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:4093">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:4248 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:4248">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:4453 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:4453">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPC5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:44915 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:44915">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINC00836</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:4525 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:4525">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPFFR2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:49076 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:49076">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CASC6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:51163 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:51163">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINC01497</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:51307 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:51307">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINC01539</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:51425 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:51425">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINC01583</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:533 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:533">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANXA1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:5362 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:5362">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:5476 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:5476">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGFBP7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:7154 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:7154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MME</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:7872 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:7872">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOS1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:7955 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:7955">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:7957 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:7957">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPY2R</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:8803 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:8803">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDGFRA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:8973 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:8973">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIK3C2G</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:9454 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:9454">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROM1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:9477 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:9477">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRSS12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:956 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:956">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BARX2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://identifiers.org/hgnc/HGNC:983 -->
+
+    <owl:Class rdf:about="http://identifiers.org/hgnc/HGNC:983">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCHE</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+

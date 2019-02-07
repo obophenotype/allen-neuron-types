@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.jcvi.org/cl_ext/markers.owl" uri="markers.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.w3.org/2002/07/owl" uri="markers.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/davidos/ontologies/2019/1/untitled-ontology-242" uri="support.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1549566403820" name="http://www.jcvi.org/cl_ext/markers.owl" uri="markers.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549566403820" name="duplicate:http://www.w3.org/2002/07/owl" uri="mtg_sc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549566403820" name="duplicate:http://www.w3.org/2002/07/owl" uri="mtg_ec_test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1549566403820" name="duplicate:http://www.w3.org/2002/07/owl" uri="mtg_eq.owl"/>
+    </group>
+</catalog>
