@@ -23,7 +23,7 @@ Note - using ro.owl as an input allows use of quoted names to refer to object pr
 
 ### Processing with Jupyter notebook
 
-See [Allen\_neuron_hack.py] & notes within.
+See [Allen\_neuron_hack.pynb](https://github.com/obophenotype/allen-neuron-types/blob/master/alternative_rdf_models/Allen_neuron_hack.ipynb) & notes within.
 
 
 
